@@ -28,14 +28,14 @@ main:
 	lea rdi,[formati]
 	mov rsi,[x]
 	xor eax,eax
-	call printf
+	call printf 
 
 	lea rdi,[scanf_prompts]
 	lea rsi,[name]
 	lea rdx,[x]
 	xor eax,eax
 	call printf
-
+	
 	lea rdi,[formats]
 	lea rsi,[name]
 	xor eax,eax
